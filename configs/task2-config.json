@@ -1,0 +1,14 @@
+{
+  "global": {
+    "version": "0.1",
+    "api_url": ""
+  },
+  "production": {
+    "environment": "production",
+    "api_url": ""
+  },
+  "development": {
+    "environment": "development",
+    "api_url": ""
+  }
+}

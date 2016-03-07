@@ -1,0 +1,21 @@
+$tablet: 900px;
+
+@media screen and (max-width: $tablet) {
+  .phase {
+    &.phase5 {
+      .row {
+        .col {
+          .image-container {
+            width: 20vw;
+            height: 20vw;
+          }
+          .description-icon {
+            font-size: 2rem;
+            color: $dark-grey;
+          }
+        }
+      }
+    }
+  }
+
+}

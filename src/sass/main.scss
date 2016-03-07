@@ -1,0 +1,312 @@
+a {
+  color: $white;
+}
+.phase {
+  height: 100vh;
+  &.phase1 {
+    background-color: $brand-bg-color;
+    text-align: center;
+    padding-top: 43vh;
+    .geek-label-logo {
+      margin: 0 auto;
+      width: 20vw;
+      min-width: 200px;
+    }
+    .description {
+      padding-top: 10vh;
+      color: $white;
+      width: 100%;
+      font-size: 2rem;
+      .description1 {
+        margin: 0;
+      }
+      .description2 {
+        margin-top: 0;
+        margin-bottom: 8vh;
+      }
+    }
+    .button-down-1 .button-down {
+      display: none;
+      font-size: 4rem;
+      color: $white;
+      border: 3px solid $white;
+      border-radius: 50%;
+      padding-top: 2px;
+    }
+  }
+  &.phase2 {
+    background-color: $light-grey;
+    text-align: center;
+    padding-top: 21vh;
+    .design-build-idea {
+      width: 35vw;
+    }
+    .description {
+      color: $dark-grey;
+      font-size: 1.5em;
+      width: 100%;
+      padding-top: 10vh;
+      .description3 {
+        margin-bottom: 6vh;
+        font-size: 3rem;
+        .design {
+          color: $accent;
+        }
+      }
+    }
+    .button-down-2  .button-down {
+      display: none;
+      background-color: $accent;
+      font-size: 4rem;
+      border: 3px solid $white;
+      border-radius: 50%;
+      padding-top: 2px;
+    }
+  }
+  &.phase3 {
+    background-color: $light-grey;
+    text-align: center;
+    padding-top: 21vh;
+    .build-not-design {
+      width: 35vw;
+    }
+    .description {
+      padding-top: 10vh;
+      color: $dark-grey;
+      font-size: 1.5em;
+      width: 100%;
+      .description4 {
+        margin-top: 0;
+        font-size: 3rem;
+        .build {
+          color: $accent;
+        }
+      }
+    }
+    .button-down-3 .button-down {
+      display: none;
+      background-color: $accent;
+      font-size: 4rem;
+      border: 3px solid $white;
+      border-radius: 50%;
+      padding-top: 2px;
+    }
+  }
+  &.phase4 {
+    background-color: $light-grey;
+    text-align: center;
+    padding-top: 21vh;
+    .build-design-good-idea {
+      width: 35vw;
+    }
+    .description {
+      padding-top: 15vh;
+      color: $dark-grey;
+      font-size: 1.5em;
+      width: 100%;
+      .description5 {
+        margin-bottom: 8vh;
+        font-size: 3rem;
+        .both {
+          color: $accent;
+        }
+      }
+    }
+    .button-down-4 .button-down {
+      display: none;
+      background-color: $accent;
+      font-size: 4rem;
+      border: 3px solid $white;
+      border-radius: 50%;
+      padding-top: 2px;
+    }
+  }
+  &.phase5 {
+    background-color: $white;
+    text-align: center;
+    padding-top: 21vh;
+    margin-bottom: 21vh;
+    .title-services {
+      font-size: 6rem;
+      font-weight: 300;
+      color: $dark-grey;
+    }
+    .row {
+      padding-top: calc(26vh - 6rem);
+      margin-bottom: 12vh;
+      max-width: 100vw;
+      .col {
+        .image-container {
+          background-color: $accent;
+          width: 280px;
+          height: 280px;
+          margin: 0 auto;
+          border-radius: 50%;
+          padding: 20%;
+          .icon-custom {
+            margin-top: 20%;
+            width: 75%;
+          }
+        }
+        .description-icon {
+          font-size: 2rem;
+          color: $dark-grey;
+        }
+      }
+    }
+    .button-container {
+      padding-top: 3vh;
+      .button-down-5 .button-down {
+        display: none;
+        background-color: $white;
+        font-size: 4rem;
+        border: 3px solid $dark-grey;
+        color: $dark-grey;
+        border-radius: 50%;
+        margin: 0 auto;
+        padding-top: 2px;
+      }
+    }
+  }
+  &.phase6 {
+    background-color: $light-grey;
+    text-align: center;
+    padding-top: 10vh;
+    .title-clients {
+      width: 100%;
+      margin: 0 auto;
+      font-size: 6rem;
+      font-weight: 300;
+      color: $dark-grey;
+    }
+    .row {
+      padding-top: 8vh;
+      .col {
+        padding: 0;
+      }
+      .carousel-container {
+        padding-top: calc(30vh - 150px);
+        margin: 0 auto;
+        .carousel {
+          height: 300px;
+          width: 60vw;
+          margin: 0 auto;
+          .carousel-item {
+            width: 20vw;
+            img {
+              max-width: 17vw;
+              width: 17vw;
+              padding: 2vw;
+               -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+            }
+            img:hover{
+               -webkit-filter: grayscale(0); /* Google Chrome, Safari 6+ & Opera 15+ */
+            }
+          }
+        }
+      }
+      .left-container {
+        text-align: right;
+        padding-top: calc(30vh - 4rem);
+        .button-left {
+          .previous {
+            color: $dark-grey;
+            cursor: pointer;
+            font-size: 4rem;
+          }
+          .previous:hover {
+            color: black;
+          }
+        }
+      }
+      .right-container {
+        text-align: left;
+        padding-top: calc(30vh - 4rem);
+        .button-right {
+          .next {
+            color: $dark-grey;
+            cursor: pointer;
+            font-size: 4rem;
+          }
+          .next:hover {
+            color: black;
+          }
+        }
+      }
+    }
+    .button-container {
+      padding-top: 23vh;
+      .button-down-6 .button-down {
+        display: none;
+        background-color: $accent;
+        font-size: 4rem;
+        border: 3px solid $white;
+        border-radius: 50%;
+        margin: 0 auto;
+      }
+    }
+  }
+  &.phase7 {
+    background-color: $light-grey;
+    text-align: center;
+    padding-top: 18vh;
+    .title-find-us {
+      width: 100%;
+      margin: 0 auto;
+      margin-bottom: 3vh;
+      font-size: 6rem;
+      font-weight: 300;
+      color: $dark-grey;
+    }
+    .map-contact-us {
+      width: 100%;
+      height: 60%;
+    }
+    .button-container {
+      padding-top: 11vh;
+      .button-down-7 .button-down {
+        display: none;
+        background-color: $accent;
+        font-size: 4rem;
+        border: 3px solid $white;
+        border-radius: 50%;
+        margin: 0 auto;
+        padding-top: 2px;
+      }
+    }
+  }
+  &.phase8 {
+    background-color: $light-grey;
+    text-align: center;
+    padding-top: 21vh;
+    margin: 0;
+    .container {
+      background-color: $light-grey;
+      padding: 0;
+      width: 100%;
+      margin: 0 auto;
+    }
+    .title-contact {
+      width: 100%;
+      margin: 0 auto;
+      font-size: 6rem;
+      font-weight: 300;
+      color: $dark-grey;
+    }
+    .form-contact {
+      width: 100%;
+      margin: 0 auto;
+      margin-top: 10vh;
+      .btn-send-message {
+        background-color: $accent;
+      }
+    }
+    .description {
+      &.phone-contact {
+        color: $dark-grey;
+        font-size: 1.5rem;
+        width: 100%;
+      }
+    }
+  }
+}
